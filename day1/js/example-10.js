@@ -17,3 +17,37 @@ const doubleDigitHours = ;
 const doubleDigitMinutes = ;
 console.log(`${doubleDigitHours}:${doubleDigitMinutes}`); 
 */
+
+const totalMinutes = 70;
+const hours = Math.floor(totalMinutes / 60);
+const minutes = totalMinutes % 60;
+console.log(hours);
+console.log(minutes);
+
+const doubleDigitHours = String(hours).padStart(2, 0);
+const doubleDigitMinutes = String(minutes).padStart(2, 0);
+console.log(`${doubleDigitHours}:${doubleDigitMinutes}`);
+
+// const totalMinutes = 450;
+// const hours = Math.floor(totalMinutes / 60); // modulo operator = remainder
+// const minutes = totalMinutes % 60;
+// console.log(hours);
+// console.log(minutes);
+// console.log(`${ hours }:${ minutes }`); // 07:30
+// console.log(`${ String(hours).padStart(2, 0) }:${ String(minutes).padStart(2, 0) }`); // 07:30
+
+// const doubleDigitHours = String(hours).padStart(2, 0);
+// const doubleDigitMinutes = String(minutes).padStart(2, 0);
+// console.log(`${doubleDigitHours}:${doubleDigitMinutes}`); // 7:30
+
+// const totalMinutes = 1441;
+// const hours = Math.floor(totalMinutes / 60); // modulo operator = remainder
+// const minutes = totalMinutes % 60;
+// console.log(hours);
+// console.log(minutes);
+// console.log(`${ hours }:${ minutes }`); // 24:1
+// console.log(`${ String(hours).padStart(2, 0) }:${ String(minutes).padStart(2, 0) }`); // 24:01
+
+// const doubleDigitHours = String(hours).padStart(2, 0);
+// const doubleDigitMinutes = String(minutes).padStart(2, 0);
+// console.log(`${doubleDigitHours}:${doubleDigitMinutes}`); // 24:01

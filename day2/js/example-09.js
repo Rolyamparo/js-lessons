@@ -12,8 +12,26 @@ Use if...else construction.
 const daysUntilDeadline = 5;
 // Write code below this line
  */
-const daysUntilDeadline = 0;
-if (daysUntilDeadline === 0) console.log("Today");
-else if (daysUntilDeadline === 1) console.log("Tomorrow");
-else if (daysUntilDeadline === 2) console.log("The day after tomorrow");
-else console.log("Date in the future");
+// const daysUntilDeadline = 0;
+// if (daysUntilDeadline === 0) console.log("Today");
+// else if (daysUntilDeadline === 1) console.log("Tomorrow");
+// else if (daysUntilDeadline === 2) console.log("The day after tomorrow");
+// else console.log("Date in the future"); // Today
+
+// const daysUntilDeadline = 1;
+// if (daysUntilDeadline === 0) console.log("Today");
+// else if (daysUntilDeadline === 1) console.log("Tomorrow");
+// else if (daysUntilDeadline === 2) console.log("The day after tomorrow");
+// else console.log("Date in the future"); // Tomorrow
+
+// const daysUntilDeadline = 2;
+// if (daysUntilDeadline === 0) console.log("Today");
+// else if (daysUntilDeadline === 1) console.log("Tomorrow");
+// else if (daysUntilDeadline === 2) console.log("The day after tomorrow");
+// else console.log("Date in the future"); // The day after tomorrow
+
+// const daysUntilDeadline = 3;
+// if (daysUntilDeadline === 0) console.log("Today");
+// else if (daysUntilDeadline === 1) console.log("Tomorrow");
+// else if (daysUntilDeadline === 2) console.log("The day after tomorrow");
+// else console.log("Date in the future"); // Date in the future
